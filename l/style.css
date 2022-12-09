@@ -6,6 +6,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
+	background-color: rgb(24, 24, 24);
 }
 button {
 	font-family: 'Poppins', sans-serif;
@@ -18,7 +19,9 @@ header {
 	margin: auto;
 	align-items: center;
 }
-
+span{
+    color: #332FD0;
+}
 .logo-container,
 .nav-links,
 .cart {
@@ -31,6 +34,8 @@ header {
 .logo {
 	font-weight: 400;
 	margin: 5px;
+	color: #eee;
+	font-weight: 700;
 }
 nav {
 	flex: 2;
@@ -40,7 +45,7 @@ nav {
 	list-style: none;
 }
 .nav-link {
-	color: #5f5f79;
+	color: #ffffff;
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -62,9 +67,8 @@ nav {
 .intro-text h1 {
 	font-size: 44px;
 	font-weight: 500;
-	background: linear-gradient(to right, #494964, #6f6f89);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #eee;
+	font-weight: 900;
 }
 .intro-text p {
 	margin-top: 5px;
@@ -136,6 +140,24 @@ nav {
 	position: absolute;
 	right: 20%;
 }
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 35px;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: #293462;
+    transition: .4s;
 
 @keyframes drop {
 	0% {

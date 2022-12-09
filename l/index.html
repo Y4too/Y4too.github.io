@@ -9,18 +9,25 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+
 		<title>Landing Page</title>
 	</head>
 	<body>
 		<header>
 			<div class="logo-container">
-				<img src="./img/logo.svg" alt="logo" />
-				<h4 class="logo">Three Dots</h4>
+				<img src="./img/g.svg" alt="logo" />
+				<h4 class="logo">アンドレイ</h4>
 			</div>
 			<nav>
 				<ul class="nav-links">
-					<li><a class="nav-link" href="#">Specs</a></li>
-					<li><a class="nav-link" href="#">Products</a></li>
+					<li><a class="nav-link" href="#">Home</a></li>
+					<li><a class="nav-link" href="#">Projects</a></li>
 					<li><a class="nav-link" href="#">Contact</a></li>
 				</ul>
 			</nav>
@@ -33,12 +40,19 @@
 			<section class="presentation">
 				<div class="introduction">
 					<div class="intro-text">
-						<h1>Laptop for the future</h1>
+						<h1>I Am <span class="input"></span></h1>
 						<p>
 							The new 14 inch bezeless display oferring a 4k
 							display with touch screen.
 						</p>
 					</div>
+					<div class="social">
+                        <a href="https://www.facebook.com/andrei.parquez.5"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    </div>
 					<div class="cta">
 						<button class="cta-select">14 Inch</button>
 						<button class="cta-add">Add To Cart</button>
@@ -61,5 +75,15 @@
 			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
 			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
 		</main>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+			 <script>
+				 var typed = new Typed(".input",{
+					 strings:["Andrei R. Parquez.","Gamer.","Student.","Selfish."],
+					 typeSpeed: 70,
+					 backSpeed: 60,
+					 loop:true
+				 });
+			 </script>
 	</body>
 </html>
