@@ -180,11 +180,8 @@ span{
     transition: .4s;
 }
 @media screen and (max-width: 600px) {
-    nav .nav-list li a{
-        display: inline-block;
-        color: #eee;
-        margin-left: 5px;
-        font-size: 15px;
-        font-weight: 700;
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
   }
-}
