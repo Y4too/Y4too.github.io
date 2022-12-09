@@ -34,7 +34,7 @@ span{
 .logo {
 	font-weight: 400;
 	margin: 5px;
-	color: #eee;
+	color: rgb(255, 255, 255);
 	font-weight: 700;
 }
 nav {
@@ -202,4 +202,10 @@ nav {
 	.big-circle {
 		opacity: 0.2;
 	}
+	.logo {
+	font-weight: 400;
+	margin: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+}
 }
