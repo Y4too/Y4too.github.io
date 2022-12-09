@@ -190,6 +190,12 @@ span{
 }
 @media only screen and (max-width: 600px){
     .container{
-        max-width: 10%;
+        max-width: 80%;
     }
+    .logo i{
+        height: 55px;
+        width: 55px;
+        background: transparent;
+        border: 2px solid #afd40b;
+        color: #0bfd03a8;
 }
