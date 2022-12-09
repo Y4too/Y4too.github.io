@@ -106,11 +106,13 @@ nav {
 	display: flex;
 	justify-content: center;
 	height: 80vh;
+	
 }
 .cover img {
 	height: 500px;
 	filter: drop-shadow(0px 5px 3px rgb(20, 20, 20));
 	animation: drop 1.5s ease;
+	
 	
 }
 .social a{
