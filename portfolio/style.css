@@ -188,7 +188,7 @@ span{
         font-weight: 700;
   }
 }
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .container{
         max-width: 80%;
     }
@@ -201,5 +201,8 @@ span{
 }
 nav .hamb{
     float: none;
+}
+.container .hero-text p{
+    font-size: 1.5rem;
 }
 }
