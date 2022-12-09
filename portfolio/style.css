@@ -199,8 +199,8 @@ span{
         border: 2px solid #afd40b;
         color: #0bfd03a8;
 }
-nav .hamb{
-    float: none;
+.social a{
+    flex-direction: column;
 }
 .container .hero-text p{
     font-size: 1.5rem;
