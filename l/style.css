@@ -49,6 +49,9 @@ nav {
 	font-size: 18px;
 	text-decoration: none;
 }
+.nav-link:hover {
+	color:  #332FD0;
+}
 .cart {
 	flex: 1;
 	justify-content: flex-end;
@@ -73,22 +76,22 @@ nav {
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
-	color: #585772;
+	color: #ebebf1;
 }
 .cta {
 	padding: 50px 0px 0px 0px;
 }
 .cta-select {
-	border: 2px solid #c36cbb;
+	border: 2px solid  #332FD0;
 	background: transparent;
-	color: #c36cbb;
+	color:  #332FD0;
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
 	font-size: 16px;
 }
 .cta-add {
-	background: #c36cbb;
+	background:  #332FD0;
 	width: 150px;
 	height: 50px;
 	cursor: pointer;
@@ -102,43 +105,13 @@ nav {
 	flex: 1;
 	display: flex;
 	justify-content: center;
-	height: 60vh;
+	height: 80vh;
 }
 .cover img {
-	height: 100%;
-	filter: drop-shadow(0px 5px 3px black);
+	height: 500px;
+	filter: drop-shadow(0px 5px 3px rgb(20, 20, 20));
 	animation: drop 1.5s ease;
-}
-
-.big-circle {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
-	opacity: 0.5;
-	height: 80%;
-}
-.medium-circle {
-	position: absolute;
-	top: 30%;
-	right: 30%;
-	z-index: -1;
-	height: 60%;
-	opacity: 0.4;
-}
-.small-circle {
-	position: absolute;
-	bottom: 0%;
-	left: 20%;
-	z-index: -1;
-}
-
-.laptop-select {
-	width: 15%;
-	display: flex;
-	justify-content: space-around;
-	position: absolute;
-	right: 20%;
+	
 }
 .social a{
     width: 37px;
@@ -159,6 +132,9 @@ nav {
     transform: scale(1.1);
     background: #293462;
     transition: .4s;
+}
+.cart img{
+	height: 30px;
 }
 @keyframes drop {
 	0% {
